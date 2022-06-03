@@ -19,7 +19,7 @@ export const HeaderMenuButtons: FC<HeaderMenuButtonsProps> = ({ enabled }) => {
   const handleAboutClick = useCallback(() => {
     router.push('/about');
   }, [router]);
-
+  
   return (
     <Box
       display="flex"
